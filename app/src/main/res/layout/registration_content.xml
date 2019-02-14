@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.ruman.navdrawer.RegistrationActivity"
+    tools:showIn="@layout/registration">
+
+
+
+
+    <LinearLayout
+        android:layout_width="344dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        android:background="@drawable/image_back"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:verticalScrollbarPosition="defaultPosition">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="#e8e8e7" >
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="48dp"
+                    android:background="#13b586"
+                    android:orientation="horizontal"
+                    android:layout_alignParentTop="true">
+
+
+
+
+                    <TextView android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Doctor's Registration"
+                        android:textColor="#ffffff"
+                        android:layout_marginLeft="25dp"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+
+                        android:layout_gravity="center_horizontal|center_vertical"/>
+
+
+
+
+                </LinearLayout>
+
+
+
+                <LinearLayout android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="30dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/greybackground"
+                    >
+
+
+
+                    <EditText android:layout_width="fill_parent"
+                        android:layout_height="40dp"
+                        android:hint="Full name"
+                        android:inputType="textPersonName"
+                        android:singleLine="true"
+                        android:background="#f3f3f3"
+                        android:paddingLeft="5dp"
+                        android:layout_marginTop="30dp"/>
+
+
+
+                    <EditText android:layout_width="fill_parent"
+                        android:layout_height="40dp"
+                        android:hint="Qualification"
+                        android:singleLine="true"
+                        android:background="#f3f3f3"
+                        android:paddingLeft="5dp"
+                        android:layout_marginTop="15dp"/>
+                    <TextView android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Expertise"
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        android:paddingLeft="5dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="15dp"/>
+
+                    <Spinner
+                        android:id="@+id/SpinnerFeedbackType"
+                        android:layout_height="40dp"
+                        android:prompt="@string/expertPrompt"
+                        android:background="#f3f3f3"
+                        android:layout_width="fill_parent"
+                        android:entries="@array/expertlist"
+                        android:spinnerMode="dropdown" >
+                    </Spinner>
+
+                    <EditText android:layout_width="fill_parent"
+                        android:layout_height="40dp"
+                        android:hint="Chamber (full address)"
+                        android:inputType="textMultiLine"
+                        android:lines="2"
+                        android:singleLine="false"
+                        android:background="#f3f3f3"
+                        android:paddingLeft="5dp"
+                        android:layout_marginTop="15dp"/>
+
+
+                    <EditText android:layout_width="fill_parent"
+                        android:layout_height="40dp"
+                        android:hint="Phone Number 1"
+                        android:singleLine="true"
+                        android:inputType="phone"
+
+                        android:background="#f3f3f3"
+                        android:paddingLeft="5dp"
+                        android:layout_marginTop="15dp"/>
+                    <EditText android:layout_width="fill_parent"
+                        android:layout_height="40dp"
+                        android:hint="Phone Number 2"
+                        android:singleLine="true"
+                        android:inputType="phone"
+
+                        android:background="#f3f3f3"
+                        android:paddingLeft="5dp"
+                        android:layout_marginTop="15dp"/>
+                    >
+
+
+                    <EditText android:layout_width="fill_parent"
+                        android:layout_height="40dp"
+                        android:hint="Email Id"
+                        android:inputType="textEmailAddress"
+                        android:singleLine="true"
+                        android:background="#f3f3f3"
+                        android:paddingLeft="5dp"
+                        android:layout_marginTop="15dp"/>
+
+
+                    <EditText android:layout_width="fill_parent"
+                        android:layout_height="40dp"
+                        android:hint="User name"
+                        android:singleLine="true"
+                        android:background="#f3f3f3"
+                        android:paddingLeft="5dp"
+                        android:layout_marginTop="15dp"/>
+                    <EditText android:layout_width="fill_parent"
+                        android:layout_height="40dp"
+                        android:hint="Password"
+                        android:password="true"
+                        android:singleLine="true"
+                        android:background="#f3f3f3"
+                        android:paddingLeft="5dp"
+                        android:layout_marginTop="15dp"/>
+                    <Button android:layout_width="190dp"
+                        android:layout_height="38dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="16dp"
+                        android:text="Sign Up"
+                        android:textColor="#fff"
+                        android:background="#13b586"/>
+
+
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+        </ScrollView>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

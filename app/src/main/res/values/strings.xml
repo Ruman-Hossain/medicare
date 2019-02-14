@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Medicare</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="expertPrompt">Select Expertise</string>
+    <string name="expert1">Heart</string>
+    <string name="expert2">Brain (nervous system)</string>
+    <string name="expert3">Skin</string>
+    <string name="expert4">Eyes</string>
+    <string name="expert5">Heart</string>
+    <string name="expert6">Ear, nose, throat</string>
+    <string name="expert7">Heart</string>
+    <string name="expert8">Bones</string>
+    <string name="expert9">Hormone imbalances</string>
+    <string name="expert10">Urinary tract, kidneys</string>
+    <string name="expert11">Digestive system</string>
+    <string name="expert12">Cancer</string>
+    <string name="expert13">Allergies</string>
+
+
+    <string name="districtPrompt">Select District</string>
+
+</resources>

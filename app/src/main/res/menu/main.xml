@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_login"
+        android:orderInCategory="100"
+        android:title="Log in"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_register"
+        android:orderInCategory="101"
+        android:title="Register" />
+
+    <item
+        android:id="@+id/menu_SelectDistrict"
+        android:orderInCategory="101"
+        android:title="@string/districtPrompt"
+        />
+</menu>
+
+
+<!--
+<Spinner
+        android:id="@+id/SelectDistrict"
+        android:layout_height="40dp"
+        android:prompt="@string/districtPrompt"
+        android:background="#f3f3f3"
+        android:layout_width="fill_parent"
+        android:entries="@array/expertlist"
+        android:spinnerMode="dropdown" >
+    </Spinner>
+-->

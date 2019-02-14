@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.ruman.navdrawer.Doctors"
+    tools:showIn="@layout/disease">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:verticalScrollbarPosition="defaultPosition"
+        android:gravity="center"
+        android:foregroundGravity="center"
+        android:background="@drawable/background_image_blue"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+    <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Disease Category"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:layout_marginBottom="8dp"
+
+            />
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:verticalScrollbarPosition="defaultPosition"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginBottom="20dp">
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dp"
+                    android:layout_alignParentLeft="true"
+                    android:background="#e8e8e7" />
+
+                <Button
+                    android:id="@+id/bAllergies"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/buttonshape"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="Allergies"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18dp"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"/>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dp"
+                    android:layout_alignParentLeft="true"
+                    android:background="#e8e8e7" />
+
+                <Button
+                    android:id="@+id/bBones"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/buttonshape"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="Bones"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18dp"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"/>
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dp"
+                    android:layout_alignParentLeft="true"
+                    android:background="#e8e8e7" />
+                <Button
+                    android:id="@+id/bBrain"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/buttonshape"
+                    android:text="Brain (nervous system)"
+                    android:textSize="18dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="8dp"
+                    android:textStyle="bold" />
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dp"
+                    android:layout_alignParentLeft="true"
+                    android:background="#e8e8e7" />
+                <Button
+                    android:id="@+id/bCancer"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/buttonshape"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="Cancer"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18dp"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"/>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dp"
+                    android:layout_alignParentLeft="true"
+                    android:background="#e8e8e7" />
+                <Button
+                    android:id="@+id/bDigestive"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/buttonshape"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="Digestive system"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18dp"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"/>
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dp"
+                    android:layout_alignParentLeft="true"
+                    android:background="#e8e8e7" />
+                <Button
+                    android:id="@+id/bENT"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/buttonshape"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="Ear, nose, throat"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18dp"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"/>
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dp"
+                    android:layout_alignParentLeft="true"
+                    android:background="#e8e8e7" />
+                <Button
+                    android:id="@+id/bEyes"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/buttonshape"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="Eyes"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18dp"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"/>
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dp"
+                    android:layout_alignParentLeft="true"
+                    android:background="#e8e8e7" />
+
+                <Button
+                    android:id="@+id/bHeart"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/buttonshape"
+                    android:text="Heart"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18dp"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="5dp"/>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dp"
+                    android:layout_alignParentLeft="true"
+                    android:background="#e8e8e7" />
+                <Button
+                    android:id="@+id/bHormone"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/buttonshape"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="	Hormone imbalances"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18dp"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"/>
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dp"
+                    android:layout_alignParentLeft="true"
+                    android:background="#e8e8e7" />
+
+                <Button
+                    android:id="@+id/bSkin"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/buttonshape"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="Skin"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18dp"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"/>
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dp"
+                    android:layout_alignParentLeft="true"
+                    android:background="#e8e8e7" />
+
+
+
+                <Button
+                    android:id="@+id/bKidneys"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/buttonshape"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="Urinary tract, kidneys"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18dp"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"/>
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dp"
+                    android:layout_alignParentLeft="true"
+                    android:background="#e8e8e7" />
+
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

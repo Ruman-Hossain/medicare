@@ -1,0 +1,931 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.ruman.navdrawer.DoctorDigestiveActivity"
+    tools:showIn="@layout/digestive">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/background_image_blue"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="0dp"
+            android:layout_weight="0.53"
+            android:verticalScrollbarPosition="defaultPosition">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginBottom="16dp"
+                    android:background="#000000" />
+
+                <TableLayout
+                    android:layout_width="356dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="157.53"
+                    android:background="@drawable/tableborder">
+
+                    <TableRow
+                        android:id="@+id/tableRow1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TableLayout
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent">
+
+                            <TableRow>
+
+                                <ImageView
+                                    android:id="@+id/doctor"
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"
+                                    android:paddingLeft="5dp"
+                                    android:src="@mipmap/doctors1" />
+                            </TableRow>
+
+                            <TableRow>
+
+                                <TextView
+                                    android:id="@+id/textView2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="4dp"
+                                    android:layout_marginTop="5dp"
+                                    android:text="MBBS"
+                                    android:textAlignment="center" />
+                            </TableRow>
+                            <TableRow>
+
+                                <TextView
+                                    android:id="@+id/textView2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="4dp"
+                                    android:layout_marginTop="5dp"
+                                    android:text="FCPS"
+                                    android:textAlignment="center" />
+                            </TableRow>
+                        </TableLayout>
+
+                        <TableLayout
+                            android:layout_width="235dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginLeft="5dp">
+
+                            <TableRow>
+
+                                <TextView
+                                    android:id="@+id/textView1"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="4dp"
+                                    android:gravity="left"
+                                    android:text="Dr. Hasin Manjara"
+                                    android:textColor="#000000"
+                                    android:textSize="20dp"
+                                    android:textStyle="italic" />
+
+                            </TableRow>
+
+                            <TableRow>
+
+                                <TextView
+                                    android:id="@+id/textView3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="4dp"
+                                    android:layout_marginTop="5dp"
+                                    android:text="Chamber: Appolo Diagonist, Dhap, Rangpur" />
+
+                            </TableRow>
+
+                            <TableRow>
+
+                                <RatingBar
+                                    android:id="@+id/ratingBar1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:isIndicator="true"
+                                    android:max="5"
+                                    android:scaleX=".5"
+                                    android:scaleY=".5"
+                                    android:transformPivotX="0dp"
+                                    android:transformPivotY="0dp" />
+
+                            </TableRow>
+
+                        </TableLayout>
+
+                        <ImageButton
+                            android:id="@+id/imageButton1"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center_vertical"
+                            android:background="@drawable/imagebutton"
+                            android:src="@mipmap/vector_call" />
+
+                    </TableRow>
+                </TableLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginBottom="16dp"
+                    android:background="#000000" />
+
+                <TableLayout
+                    android:layout_width="356dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="157.53"
+                    android:background="@drawable/tableborder">
+
+                    <TableRow
+                        android:id="@+id/tableRow1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TableLayout
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent">
+
+                            <TableRow>
+
+                                <ImageView
+                                    android:id="@+id/doctor"
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"
+                                    android:paddingLeft="5dp"
+                                    android:src="@mipmap/doctors1" />
+                            </TableRow>
+
+                            <TableRow>
+
+                                <TextView
+                                    android:id="@+id/textView2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="4dp"
+                                    android:layout_marginTop="5dp"
+                                    android:text="MBBS"
+                                    android:textAlignment="center" />
+                            </TableRow>
+                            <TableRow>
+
+                                <TextView
+                                    android:id="@+id/textView2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="4dp"
+                                    android:layout_marginTop="5dp"
+                                    android:text="FCPS"
+                                    android:textAlignment="center" />
+                            </TableRow>
+                        </TableLayout>
+
+                        <TableLayout
+                            android:layout_width="235dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp">
+
+                            <TableRow>
+
+                                <TextView
+                                    android:id="@+id/textView1"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="4dp"
+                                    android:gravity="left"
+                                    android:text="Dr. Ruman Hossain"
+                                    android:textColor="#000000"
+                                    android:textSize="20dp"
+                                    android:textStyle="italic" />
+
+                            </TableRow>
+
+                            <TableRow>
+
+                                <TextView
+                                    android:id="@+id/textView3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="4dp"
+                                    android:layout_marginTop="5dp"
+                                    android:text="Chamber: Appolo Diagonist, Dhap, Rangpur" />
+
+                            </TableRow>
+
+                            <TableRow>
+
+                                <RatingBar
+                                    android:id="@+id/ratingBar1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:isIndicator="true"
+                                    android:max="5"
+                                    android:scaleX=".5"
+                                    android:scaleY=".5"
+                                    android:transformPivotX="0dp"
+                                    android:transformPivotY="0dp" />
+
+                            </TableRow>
+
+                        </TableLayout>
+
+
+                        <ImageButton
+                            android:id="@+id/imageButton1"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center_vertical"
+                            android:background="@drawable/imagebutton"
+                            android:src="@mipmap/vector_call" />
+
+
+                    </TableRow>
+                </TableLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginBottom="16dp"
+                    android:background="#000000" />
+
+                <TableLayout
+                    android:layout_width="356dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="157.53"
+                    android:background="@drawable/tableborder">
+
+                    <TableRow
+                        android:id="@+id/tableRow1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TableLayout
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent">
+
+                            <TableRow>
+
+                                <ImageView
+                                    android:id="@+id/doctor"
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"
+                                    android:paddingLeft="5dp"
+                                    android:src="@mipmap/doctors1" />
+                            </TableRow>
+
+                            <TableRow>
+
+                                <TextView
+                                    android:id="@+id/textView2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="4dp"
+                                    android:layout_marginTop="5dp"
+                                    android:text="MBBS"
+                                    android:textAlignment="center" />
+                            </TableRow>
+                        </TableLayout>
+
+                        <TableLayout
+                            android:layout_width="235dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp">
+
+                            <TableRow>
+
+                                <TextView
+                                    android:id="@+id/textView1"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="4dp"
+                                    android:gravity="left"
+                                    android:text="Dr. Saroar Mahmud"
+                                    android:textColor="#000000"
+                                    android:textSize="20dp"
+                                    android:textStyle="italic" />
+
+                            </TableRow>
+
+                            <TableRow>
+
+                                <TextView
+                                    android:id="@+id/textView3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="4dp"
+                                    android:layout_marginTop="5dp"
+                                    android:text="Chamber: Appolo Diagonist, Dhap, Rangpur" />
+
+                            </TableRow>
+
+                            <TableRow>
+
+                                <RatingBar
+                                    android:id="@+id/ratingBar1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:isIndicator="true"
+                                    android:max="5"
+                                    android:scaleX=".5"
+                                    android:scaleY=".5"
+                                    android:transformPivotX="0dp"
+                                    android:transformPivotY="0dp" />
+
+                            </TableRow>
+
+                        </TableLayout>
+
+                        <ImageButton
+                            android:id="@+id/imageButton1"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center_vertical"
+                            android:background="@drawable/imagebutton"
+                            android:src="@mipmap/vector_call" />
+
+
+                    </TableRow>
+                </TableLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginBottom="16dp"
+                    android:background="#000000" />
+
+                <TableLayout
+                    android:layout_width="356dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="157.53"
+                    android:background="@drawable/tableborder">
+
+                    <TableRow
+                        android:id="@+id/tableRow1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TableLayout
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent">
+
+                            <TableRow>
+
+                                <ImageView
+                                    android:id="@+id/doctor"
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"
+                                    android:paddingLeft="5dp"
+                                    android:src="@mipmap/doctors1" />
+                            </TableRow>
+
+                            <TableRow>
+
+                                <TextView
+                                    android:id="@+id/textView2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="4dp"
+                                    android:layout_marginTop="5dp"
+                                    android:text="MBBS"
+                                    android:textAlignment="center" />
+                            </TableRow>
+                        </TableLayout>
+
+                        <TableLayout
+                            android:layout_width="235dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp">
+
+
+                            <TableRow>
+
+                                <TextView
+                                    android:id="@+id/textView1"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="4dp"
+                                    android:gravity="left"
+                                    android:text="Dr. Mostafa Kamal"
+                                    android:textColor="#000000"
+                                    android:textSize="20dp"
+                                    android:textStyle="italic" />
+
+                            </TableRow>
+
+                            <TableRow>
+
+                                <TextView
+                                    android:id="@+id/textView3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="4dp"
+                                    android:layout_marginTop="5dp"
+                                    android:text="Chamber: Appolo Diagonist, Dhap, Rangpur" />
+
+                            </TableRow>
+
+                            <TableRow>
+
+                                <RatingBar
+                                    android:id="@+id/ratingBar1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:isIndicator="true"
+                                    android:max="5"
+                                    android:scaleX=".5"
+                                    android:scaleY=".5"
+                                    android:transformPivotX="0dp"
+                                    android:transformPivotY="0dp" />
+
+                            </TableRow>
+
+                        </TableLayout>
+
+
+
+
+                        <ImageButton
+                            android:id="@+id/imageButton1"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center_vertical"
+                            android:background="@drawable/imagebutton"
+                            android:src="@mipmap/vector_call" />
+
+
+
+                    </TableRow>
+                </TableLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginBottom="16dp"
+                    android:background="#000000" />
+
+                <TableLayout
+                    android:layout_width="356dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="157.53"
+                    android:background="@drawable/tableborder">
+
+                    <TableRow
+                        android:id="@+id/tableRow1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TableLayout
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent">
+
+                            <TableRow>
+
+                                <ImageView
+                                    android:id="@+id/doctor"
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"
+                                    android:paddingLeft="5dp"
+                                    android:src="@mipmap/doctors1" />
+                            </TableRow>
+
+                            <TableRow>
+
+                                <TextView
+                                    android:id="@+id/textView2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="4dp"
+                                    android:layout_marginTop="5dp"
+                                    android:text="MBBS"
+                                    android:textAlignment="center" />
+                            </TableRow>
+                        </TableLayout>
+
+                        <TableLayout
+                            android:layout_width="235dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp">
+
+                            <TableRow>
+
+                                <TextView
+                                    android:id="@+id/textView1"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="4dp"
+                                    android:gravity="left"
+                                    android:text="Dr. Hasin Manjara"
+                                    android:textColor="#000000"
+                                    android:textSize="20dp"
+                                    android:textStyle="italic" />
+
+                            </TableRow>
+
+                            <TableRow>
+
+                                <TextView
+                                    android:id="@+id/textView3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="4dp"
+                                    android:layout_marginTop="5dp"
+                                    android:text="Chamber: Appolo Diagonist, Dhap, Rangpur" />
+
+                            </TableRow>
+
+                            <TableRow>
+
+                                <RatingBar
+                                    android:id="@+id/ratingBar1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:isIndicator="true"
+                                    android:max="5"
+                                    android:scaleX=".5"
+                                    android:scaleY=".5"
+                                    android:transformPivotX="0dp"
+                                    android:transformPivotY="0dp" />
+
+                            </TableRow>
+
+                        </TableLayout>
+
+                        <ImageButton
+                            android:id="@+id/imageButton1"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center_vertical"
+                            android:background="@drawable/imagebutton"
+                            android:src="@mipmap/vector_call" />
+
+                    </TableRow>
+                </TableLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginBottom="16dp"
+                    android:background="#000000" />
+
+                <TableLayout
+                    android:layout_width="356dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="157.53"
+                    android:background="@drawable/tableborder">
+
+                    <TableRow
+                        android:id="@+id/tableRow1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TableLayout
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent">
+
+                            <TableRow>
+
+                                <ImageView
+                                    android:id="@+id/doctor"
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"
+                                    android:paddingLeft="5dp"
+                                    android:src="@mipmap/doctors1" />
+                            </TableRow>
+
+                            <TableRow>
+
+                                <TextView
+                                    android:id="@+id/textView2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="4dp"
+                                    android:layout_marginTop="5dp"
+                                    android:text="MBBS"
+                                    android:textAlignment="center" />
+                            </TableRow>
+                        </TableLayout>
+
+                        <TableLayout
+                            android:layout_width="235dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp">
+
+
+                            <TableRow>
+
+                                <TextView
+                                    android:id="@+id/textView1"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="4dp"
+                                    android:gravity="left"
+                                    android:text="Dr. Ruman Hossain"
+                                    android:textColor="#000000"
+                                    android:textSize="20dp"
+                                    android:textStyle="italic" />
+
+                            </TableRow>
+
+                            <TableRow>
+
+                                <TextView
+                                    android:id="@+id/textView3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="4dp"
+                                    android:layout_marginTop="5dp"
+                                    android:text="Chamber: Appolo Diagonist, Dhap, Rangpur" />
+
+                            </TableRow>
+
+                            <TableRow>
+
+                                <RatingBar
+                                    android:id="@+id/ratingBar1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:isIndicator="true"
+                                    android:max="5"
+                                    android:scaleX=".5"
+                                    android:scaleY=".5"
+                                    android:transformPivotX="0dp"
+                                    android:transformPivotY="0dp" />
+
+                            </TableRow>
+
+                        </TableLayout>
+
+                        <ImageButton
+                            android:id="@+id/imageButton1"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center_vertical"
+                            android:background="@drawable/imagebutton"
+                            android:src="@mipmap/vector_call" />
+
+                    </TableRow>
+                </TableLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginBottom="16dp"
+                    android:background="#000000" />
+
+                <TableLayout
+                    android:layout_width="356dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="157.53"
+                    android:background="@drawable/tableborder">
+
+                    <TableRow
+                        android:id="@+id/tableRow1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TableLayout
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent">
+
+                            <TableRow>
+
+                                <ImageView
+                                    android:id="@+id/doctor"
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"
+                                    android:paddingLeft="5dp"
+                                    android:src="@mipmap/doctors1" />
+                            </TableRow>
+
+                            <TableRow>
+
+                                <TextView
+                                    android:id="@+id/textView2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="4dp"
+                                    android:layout_marginTop="5dp"
+                                    android:text="MBBS"
+                                    android:textAlignment="center" />
+                            </TableRow>
+                        </TableLayout>
+
+                        <TableLayout
+                            android:layout_width="235dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp">
+
+                            <TableRow>
+
+                                <TextView
+                                    android:id="@+id/textView1"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="4dp"
+                                    android:gravity="left"
+                                    android:text="Dr. Saroar Mahmud"
+                                    android:textColor="#000000"
+                                    android:textSize="20dp"
+                                    android:textStyle="italic" />
+
+                            </TableRow>
+
+                            <TableRow>
+
+                                <TextView
+                                    android:id="@+id/textView3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="4dp"
+                                    android:layout_marginTop="5dp"
+                                    android:text="Chamber: Appolo Diagonist, Dhap, Rangpur" />
+
+                            </TableRow>
+
+                            <TableRow>
+
+                                <RatingBar
+                                    android:id="@+id/ratingBar1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:isIndicator="true"
+                                    android:max="5"
+                                    android:scaleX=".5"
+                                    android:scaleY=".5"
+                                    android:transformPivotX="0dp"
+                                    android:transformPivotY="0dp" />
+
+                            </TableRow>
+
+                        </TableLayout>
+
+                        <ImageButton
+                            android:id="@+id/imageButton1"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center_vertical"
+                            android:background="@drawable/imagebutton"
+                            android:src="@mipmap/vector_call" />
+
+                    </TableRow>
+                </TableLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginBottom="16dp"
+                    android:background="#000000" />
+
+                <TableLayout
+                    android:layout_width="356dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="157.53"
+                    android:background="@drawable/tableborder">
+
+                    <TableRow
+                        android:id="@+id/tableRow1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TableLayout
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent">
+
+                            <TableRow>
+
+                                <ImageView
+                                    android:id="@+id/doctor"
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"
+                                    android:paddingLeft="5dp"
+                                    android:src="@mipmap/doctors1" />
+                            </TableRow>
+
+                            <TableRow>
+
+                                <TextView
+                                    android:id="@+id/textView2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="4dp"
+                                    android:layout_marginTop="5dp"
+                                    android:text="MBBS"
+                                    android:textAlignment="center" />
+                            </TableRow>
+                        </TableLayout>
+
+                        <TableLayout
+                            android:layout_width="235dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp">
+
+                            <TableRow>
+
+                                <TextView
+                                    android:id="@+id/textView1"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="4dp"
+                                    android:gravity="left"
+                                    android:text="Dr. Mostafa Kamal"
+                                    android:textColor="#000000"
+                                    android:textSize="20dp"
+                                    android:textStyle="italic" />
+
+                            </TableRow>
+
+                            <TableRow>
+
+                                <TextView
+                                    android:id="@+id/textView3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="4dp"
+                                    android:layout_marginTop="5dp"
+                                    android:text="Chamber: Appolo Diagonist, Dhap, Rangpur" />
+
+                            </TableRow>
+
+                            <TableRow>
+
+                                <RatingBar
+                                    android:id="@+id/ratingBar1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:isIndicator="true"
+                                    android:max="5"
+                                    android:scaleX=".5"
+                                    android:scaleY=".5"
+                                    android:transformPivotX="0dp"
+                                    android:transformPivotY="0dp" />
+
+                            </TableRow>
+
+                        </TableLayout>
+
+                        <ImageButton
+                            android:id="@+id/imageButton1"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center_vertical"
+                            android:background="@drawable/imagebutton"
+                            android:src="@mipmap/vector_call" />
+                    </TableRow>
+                </TableLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginBottom="16dp"
+                    android:background="#000000" />
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

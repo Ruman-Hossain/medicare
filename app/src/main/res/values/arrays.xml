@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string-array name="expertlist">
+          <item>@string/expertPrompt</item>
+        <item>@string/expert1</item>
+        <item>@string/expert2</item>
+        <item>@string/expert3</item>
+        <item>@string/expert4</item>
+         <item>@string/expert5</item>
+        <item>@string/expert6</item>
+        <item>@string/expert7</item>
+        <item>@string/expert8</item>
+         <item>@string/expert9</item>
+        <item>@string/expert10</item>
+        <item>@string/expert11</item>
+        <item>@string/expert12</item>
+         <item>@string/expert13</item>
+    </string-array>
+</resources>
